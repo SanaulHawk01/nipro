@@ -457,3 +457,329 @@ header{
 }
 
 /*Why Choose end*/
+
+/*Who work with us start*/
+
+.who-work-with-us{
+    padding-bottom: 100px;
+    background-image: url(../images/wwwu-bgi.jpg);
+    background-size: cover;
+}
+
+.wwwu_titel{}
+
+.wwwu_vl{}
+
+.wwwu_h1{}
+
+.wwwu_content{}
+
+.wwwu_item{
+    margin: 100px 0 0;
+    position: relative;
+    border-radius: 0;
+    --bs-card-border-width: unset;
+}
+
+.wwwu_img{}
+
+.wwwu_img img{
+    border-radius: 0;
+}
+
+.wwwu_col{}
+
+.wwwu_text{
+    padding: 20px 20px 20px 30px;
+}
+
+.wwwu_ul{
+    position: absolute;
+    padding: 0 0;
+    top: 60px;
+    left: 0;
+    background-color: var(--wh);
+    text-align: center;
+    opacity: 0;
+    list-style: none;
+    transition: .3s linear;
+}
+
+.wwwu_li{
+    padding: 10px 5px 5px;
+    box-shadow: 1px 0 0 0 transparent;
+    transition: .3s linear;
+}
+
+.wwwu_i{
+    font-size: 26px;
+    color: var(--as);
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.wwwu_a{}
+
+.wwwu_h5{
+    margin-bottom: 15px;
+    font-family: var(--labl);
+    font-size: 18px;
+    color: var(--bl);
+    text-transform: uppercase;
+}
+
+.wwwu_p{
+    margin-bottom: 0;
+    color: var(--as);
+}
+
+.wwwu_item:hover .wwwu_ul{
+    opacity: 1;
+}
+
+.wwwu_li:hover{
+    background-color: rgb(0 0 0 / 3%);
+    box-shadow: 1px 0 0 0 var(--bl);
+}
+
+.wwwu_i:hover{
+    color: var(--bl);
+}
+
+/*Who work with us end*/
+
+/*Best pricing start*/
+
+.best-pricing{
+    padding-bottom: 100px;
+}
+
+.bp_titel{}
+
+.bp_vl{}
+
+.bp_h1{}
+
+.bp_content{}
+
+.bp_item{
+    margin-top: 100px;
+    padding: 50px 30px 40px;
+    position: relative;
+    border: 1px solid var(--as);
+    transition: .3s linear;
+}
+
+.bp_h2{
+    padding: 0 5px;
+    font-family: var(--labl);
+    font-size: 18px;
+    color: var(--bl);
+    background-color: white;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+}
+
+.bas{
+    position: absolute;
+    top: -10px;
+    left: 55px;
+}
+
+.sta{
+    position: absolute;
+    top: -10px;
+    left: 80px;
+}
+
+.ent{
+    position: absolute;
+    top: -10px;
+    left: 83px;
+}
+
+.pla{
+    position: absolute;
+    top: -10px;
+    left: 78px;
+}
+
+.bp_p {
+    margin: 30px 0 0;
+}
+
+.bp_p35{
+    margin-bottom: 10px;
+}
+
+.bp_p35 span{
+    color: black;
+    font-size: 30px;
+}
+
+.bp_btn{
+    margin-top: 40px;
+    padding: 18px 68px;
+    color: var(--as) !important;
+    border: 1px solid var(--as) !important;
+    border-radius: 0;
+    transition: .3s linear;
+}
+
+.bp_btn i{}
+
+.bp_item:hover{
+    border: 1px solid var(--bl);
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+
+.bp_item:hover .bp_btn{
+    background-color: #f8f8f8;
+    color: var(--bl) !important;
+    border: 1px solid var(--bl) !important;
+}
+
+/*Best pricing end*/
+
+/*Nipro Responsive HTML Template start*/
+
+.nrht{
+    margin-bottom: 100px;
+    padding: 45px 0;
+    position: relative;
+    background-color: #f8f8f8;
+}
+
+.nrht_titel h1{
+    margin: 0;
+    font-size: 18px;
+    color: var(--bl);
+    display: inline-block;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.nrht_t_btn{
+    padding: 16px 45px;
+    position: absolute;
+    right: 75px;
+    top: 29px;
+    color: var(--bl)!important;
+    border: 1px solid var(--bl)!important;
+    border-radius: 0;
+}
+
+.nrht_titel h1 a i{}
+
+/*Nipro Responsive HTML Template end*/
+
+/*Co-Founder & COO start*/
+
+.cofo{
+    padding-bottom: 100px;
+}
+
+.cofo_car{}
+
+.cofo_ind{
+    right: 18px;
+    bottom: 200px;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cofo_ind .active {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.cofo_ind [data-bs-target] {
+    width: 20px;
+    background-color: var(--bl);
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.cofo_inn{}
+
+.cofo_content{
+    padding: 40px 30px;
+    border: 1px solid var(--bl);
+}
+
+.cofo_i{
+    position: absolute;
+    top: 41px;
+    margin: 15px 0 0 15px;
+    font-size: 30px;
+    color: var(--bl);
+}
+
+.cofo_img{
+    position: relative;
+}
+
+.cofo_text{}
+
+.cofo_h2{
+    font-family: var(--labl);
+    font-size: 20px;
+    color: var(--bl);
+    text-transform: uppercase;
+}
+
+.cofo_p{
+    margin: 15px 0;
+}
+
+.cofo_p1{
+    font-size: 20px;
+    color: var(--bl);
+}
+
+.cofo_p2 {
+    margin: 40px 0;
+}
+
+.cofo_p3{}
+
+.cofo_pn_btn{
+    padding: 223px 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--wh);
+    writing-mode: vertical-rl;
+    border: 1px solid var(--bl);
+}
+
+.cofo_ct_p{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    color: var(--bl) !important;
+    border: 0;
+    cursor: default !important;
+    transition: .3s linear;
+}
+
+.cofo_ct_p:hover{
+    color: var(--as) !important;
+}
+
+.cofo_ct_n{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    color: var(--bl) !important;
+    border: 0;
+    cursor: default !important;
+    transition: .3s linear;
+}
+
+.cofo_ct_n:hover{
+    color: var(--as) !important;
+}
+
+/*Co-Founder & COO end*/

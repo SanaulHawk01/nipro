@@ -133,14 +133,47 @@
 }
 
 .wc_items {
-    margin: 80px 5px 0;
+    margin: 80px 0 0;
+}
+
+.c_wcli {
+    margin: 0 23px;
+}
+
+.wc_lih {
+    margin: 15px 0 0 10px;
+}
+
+.wc_lii {
+    margin: 0 0 0 11px !important;
 }
 
 .wc_items p {
     margin: 20px 0;
+    text-align: center;
 }
 
 /*Why Choose end*/
+
+/*Who work with us end*/
+
+.who-work-with-us {
+    padding-bottom: 70px;
+}
+
+.wwwu_item {
+    margin: 70px 0 0;
+}
+
+/*Who work with us start*/
+
+/*Nipro Responsive HTML Template start*/
+
+.bp_btn {
+    padding: 18px 67px;
+}
+
+/*Nipro Responsive HTML Template end*/
 
 }
 
@@ -247,6 +280,46 @@
 
 
 /*Why Choose end*/
+
+/*Who work with us end*/
+
+.wwwu_item{
+    margin: 80px 0 0;
+}
+
+.wwwu_col {
+    padding: 0 10px;
+}
+
+.wwwu_text {
+    padding: 13px;
+}
+
+.wwwu_ul {
+    top: 20px;
+}
+
+.wwwu_li {
+    padding: 10px 5px 4px;
+}
+
+.wwwu_i {
+    font-size: 20px;
+}
+
+.wwwu_h5 {
+    font-size: 17px;
+}
+
+/*Who work with us start*/
+
+/*Nipro Responsive HTML Template start*/
+
+.bp_btn {
+    padding: 18px 40px;
+}
+
+/*Nipro Responsive HTML Template end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -326,6 +399,28 @@
 
 /*Recent work end*/
 
+/*Co-Founder & COO start*/
+
+.cofo_pn_btn {
+    padding: 35px 347px;
+    top: -90px;
+    writing-mode: unset;
+}
+
+.cofo_ct_p {
+    top: 19px;
+    right: 0; 
+    left: -340px;
+}
+
+.cofo_ct_n{
+    top: 19px;
+    right: -340px; 
+    left: 0;
+}
+
+/*Co-Founder & COO end*/
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -353,6 +448,63 @@
 }
 
 /*About us end*/
+
+/*Who work with us end*/
+
+.wwwu_col {
+    padding: 0 10px;
+}
+
+.wwwu_text {
+    padding: 13px;
+}
+
+.wwwu_li {
+    padding: 10px 5px 4px;
+}
+
+.wwwu_ul {
+    top: 20px;
+}
+
+.wwwu_i {
+    font-size: 20px;
+}
+
+.wwwu_h5 {
+    font-size: 17px;
+}
+
+/*Who work with us start*/
+
+/*Nipro Responsive HTML Template start*/
+
+.bp_item {
+    margin: 100px 0;
+    padding: 50px 18px 40px;
+}
+
+.bp_btn {
+    padding: 18px 37px;
+}
+
+/*Nipro Responsive HTML Template end*/
+
+/*Co-Founder & COO start*/
+
+.cofo_ind{
+    bottom: 220px;
+}
+
+.cofo_img {
+    width: 103%;
+}
+
+.cofo_pn_btn {
+    padding: 242px 35px;
+}
+
+/*Co-Founder & COO end*/
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -385,6 +537,22 @@
 }
 
 /*About us end*/
+
+/*Nipro Responsive HTML Template start*/
+
+.bp_btn {
+    padding: 18px 48px;
+}
+
+/*Nipro Responsive HTML Template end*/
+
+/*Co-Founder & COO start*/
+
+.cofo_pn_btn {
+    padding: 236px 35px;
+}
+
+/*Co-Founder & COO end*/
 }
 
 /*Extra extra large devices (large desktops, 1400px and up)*/
