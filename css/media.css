@@ -173,7 +173,84 @@
     padding: 18px 67px;
 }
 
+.nrht_titel h1 {
+    font-size: 15px;
+}
+
+.nrht_titel h1 {
+    margin: 0 100px 0 0;
+    font-size: 15px;
+}
+
+.nrht_t_btn {
+    top: 41px;
+    right: 12px;
+    padding: 10px 15px;
+}
+
 /*Nipro Responsive HTML Template end*/
+
+/*Co-Founder & COO start*/
+
+.cofo {
+    padding-bottom: 80px;
+}
+
+.nrht {
+    margin-bottom: 180px;
+}
+
+.cofo_pn_btn {
+    padding: 35px 147px !important;
+}
+
+.cofo_ct_p {
+    right: 0;
+    left: -180px !important;
+}
+
+.cofo_ct_n{
+    right: -180px !important; 
+    left: 0;
+}
+
+.cofo_ind {
+    right: 18px;
+    top: -68px;
+    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cofo_img {
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.cofo_i {
+    top: 21px;
+    font-size: 40px !important;
+}
+
+.cofo_ind [data-bs-target] {
+    margin: 0 4px 0;
+    width: 2px;
+    height: 18px;
+}
+
+.cofo_content {
+    padding: 20px 15px;
+}
+
+.cofo_p {
+    margin: 10px 0;
+}
+
+.cofo_p2 {
+    margin: 20px 0;
+}
+
+/*Co-Founder & COO end*/
 
 }
 
@@ -319,8 +396,82 @@
     padding: 18px 40px;
 }
 
+.nrht_titel h1 {
+    font-size: 15px;
+}
+
+.nrht_t_btn {
+    right: 30px;
+}
+
 /*Nipro Responsive HTML Template end*/
 }
+
+/*Co-Founder & COO start*/
+
+.cofo {
+    padding-bottom: 80px;
+}
+
+.nrht {
+    margin-bottom: 180px;
+}
+
+.cofo_pn_btn {
+    padding: 35px 257px;
+    top: -90px;
+    writing-mode: unset;
+}
+
+.cofo_ct_p {
+    top: 19px;
+    right: 0; 
+    left: -340px;
+}
+
+.cofo_ct_n{
+    top: 19px;
+    right: -340px; 
+    left: 0;
+}
+
+.cofo_ind {
+    right: 18px;
+    top: -68px;
+    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cofo_img {
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.cofo_i {
+    top: 21px;
+    font-size: 60px;
+}
+
+.cofo_ind [data-bs-target] {
+    margin: 0 4px 0;
+    width: 2px;
+    height: 18px;
+}
+
+.cofo_content {
+    padding: 20px 15px;
+}
+
+.cofo_p {
+    margin: 10px 0;
+}
+
+.cofo_p2 {
+    margin: 20px 0;
+}
+
+/*Co-Founder & COO end*/
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -399,7 +550,23 @@
 
 /*Recent work end*/
 
+/*Best pricing end*/
+
+.best-pricing {
+    padding-bottom: 80px;
+}
+
+/*Best pricing start*/
+
 /*Co-Founder & COO start*/
+
+.cofo {
+    padding-bottom: 80px;
+}
+
+.nrht {
+    margin-bottom: 180px;
+}
 
 .cofo_pn_btn {
     padding: 35px 347px;
@@ -417,6 +584,41 @@
     top: 19px;
     right: -340px; 
     left: 0;
+}
+
+.cofo_ind {
+    right: 18px;
+    top: -68px;
+    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cofo_img {
+    margin: 40px 0 0;
+    position: relative;
+}
+
+.cofo_i {
+    top: 61px;
+}
+
+.cofo_ind [data-bs-target] {
+    margin: 0 4px 0;
+    width: 2px;
+    height: 18px;
+}
+
+.cofo_content {
+    padding: 20px 15px;
+}
+
+.cofo_p {
+    margin: 10px 0;
+}
+
+.cofo_p2 {
+    margin: 20px 0;
 }
 
 /*Co-Founder & COO end*/
