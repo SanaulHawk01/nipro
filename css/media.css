@@ -201,21 +201,26 @@
 }
 
 .cofo_pn_btn {
-    padding: 35px 147px !important;
+    padding: 35px 147px;
+    top: -90px;
+    writing-mode: unset;
 }
 
 .cofo_ct_p {
-    right: 0;
-    left: -180px !important;
+    top: 19px;
+    right: 0; 
+    left: -190px;
 }
 
 .cofo_ct_n{
-    right: -180px !important; 
+    top: 19px;
+    right: -190px; 
     left: 0;
 }
 
 .cofo_ind {
-    right: 18px;
+    height: 0;
+    right: 0;
     top: -68px;
     margin: 0;
     flex-direction: row;
@@ -229,7 +234,7 @@
 
 .cofo_i {
     top: 21px;
-    font-size: 40px !important;
+    font-size: 45px;
 }
 
 .cofo_ind [data-bs-target] {
@@ -436,7 +441,8 @@
 }
 
 .cofo_ind {
-    right: 18px;
+    height: 0;
+    right: 0;
     top: -68px;
     margin: 0;
     flex-direction: row;
@@ -590,7 +596,8 @@
 }
 
 .cofo_ind {
-    right: 18px;
+    height: 0;
+    right: 0; 
     top: -68px;
     margin: 0;
     flex-direction: row;
