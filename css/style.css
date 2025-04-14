@@ -152,7 +152,7 @@ header{
 .w_item{}
 
 .c_h1{
-    margin-top: 30px;
+    margin: 30px 0 0;
     font-family: var(--lare);
     font-size: 30px;
     color: var(--bl);
@@ -164,7 +164,9 @@ header{
     margin-top: 30px;
 }
 
-.w_p{}
+.w_p{
+    margin: 50px 0 0;
+}
 
 /*Welcome end*/
 
@@ -418,9 +420,7 @@ header{
     font-size: 48px;
 }
 
-.c_wcli{
-    position: relative;
-}
+.c_wcli{}
 
 .wc_lii{
     margin: 0 !important;
@@ -436,14 +436,15 @@ header{
 }
 
 .wc_lih{
-    position: absolute;
-    margin: 15px 0 0 20px;
+    margin: 0 0 10px 20px;
 }
 
 .wc_h2{
+    margin-bottom: 0;
     font-family: var(--labl);
     font-size: 18px;
     color: var(--as);
+    float: inline-end;
     text-transform: uppercase;
     transition: .33s linear;
 }
@@ -476,7 +477,6 @@ header{
 
 .wwwu_item{
     margin: 100px 0 0;
-    position: relative;
     border-radius: 0;
     --bs-card-border-width: unset;
 }
@@ -646,9 +646,10 @@ header{
 .nrht{
     margin-bottom: 100px;
     padding: 45px 0;
-    position: relative;
     background-color: #f8f8f8;
 }
+
+.nrht_titel{}
 
 .nrht_titel h1{
     margin: 0;
@@ -659,11 +660,13 @@ header{
     text-transform: uppercase;
 }
 
-.nrht_t_btn{
+.nrht_it_btn{
+    margin-left: 758px;
+    display: inline-flex
+}
+
+.nrht_btn{
     padding: 16px 45px;
-    position: absolute;
-    right: 53px;
-    top: 29px;
     color: var(--bl)!important;
     border: 1px solid var(--bl)!important;
     border-radius: 0;
@@ -682,8 +685,8 @@ header{
 .cofo_car{}
 
 .cofo_ind{
-    right: 18px;
-    bottom: 200px;
+    right: 23px;
+    bottom: 205px;
     margin: 0;
     flex-direction: column;
     align-items: flex-end;
@@ -711,7 +714,7 @@ header{
 .cofo_i{
     position: absolute;
     top: 41px;
-    margin: 15px 0 0 15px;
+    margin: 20px 0 0 20px;
     font-size: 30px;
     color: var(--bl);
 }
@@ -754,9 +757,8 @@ header{
     border: 1px solid var(--bl);
 }
 
-.cofo_ct_p{
+.cofo_com_btn{
     position: absolute;
-    top: 50px;
     right: 10px;
     color: var(--bl) !important;
     border: 0;
@@ -764,22 +766,16 @@ header{
     transition: .3s linear;
 }
 
-.cofo_ct_p:hover{
+.cofo_ct_p{
+    top: 50px;
+}
+
+.cofo_ct_p:hover .cofo_ct_n:hover{
     color: var(--as) !important;
 }
 
 .cofo_ct_n{
-    position: absolute;
     bottom: 50px;
-    right: 10px;
-    color: var(--bl) !important;
-    border: 0;
-    cursor: default !important;
-    transition: .3s linear;
-}
-
-.cofo_ct_n:hover{
-    color: var(--as) !important;
 }
 
 /*Co-Founder & COO end*/

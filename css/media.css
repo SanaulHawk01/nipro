@@ -47,7 +47,12 @@
 /*Welcome start*/
 
 .c_h1 {
+    margin: 15px 0 0;
     font-size: 25px;
+}
+
+.vl {
+    height: 40px;
 }
 
 .w_h1 {
@@ -102,8 +107,8 @@
 
  .rwr_ci [data-bs-target] {
     margin:0;
-    padding:10px 10px;
-    font-size: 10px;
+    padding: 5px 4px;
+    font-size: 11px;
 }
 
 .rw_ca {
@@ -134,23 +139,15 @@
 
 .wc_items {
     margin: 80px 0 0;
-}
-
-.c_wcli {
-    margin: 0 23px;
+    text-align: center;
 }
 
 .wc_lih {
     margin: 15px 0 0 10px;
 }
 
-.wc_lii {
-    margin: 0 0 0 11px !important;
-}
-
 .wc_items p {
-    margin: 20px 0;
-    text-align: center;
+        margin: 20px 0;
 }
 
 /*Why Choose end*/
@@ -162,42 +159,87 @@
 }
 
 .wwwu_item {
-    margin: 70px 0 0;
+    margin: 80px 0 0;
 }
 
 /*Who work with us start*/
 
+/*Best pricing start*/
+
+
+.best-pricing {
+    padding-bottom: 80px;
+}
+
+.bp_item {
+    margin-top: 80px;
+    padding: 30px 29px 20px;
+}
+
+/*Best pricing end*/
+
 /*Nipro Responsive HTML Template start*/
 
-.bp_btn {
-    padding: 18px 67px;
+.nrht {
+    margin-bottom: 170px;
 }
+
+.nrht_titel{
+    text-align: center;
+}
+
 
 .nrht_titel h1 {
-    font-size: 15px;
+    margin: 0 0 25px;
 }
 
-.nrht_titel h1 {
-    margin: 0 100px 0 0;
-    font-size: 15px;
+.nrht_it_btn {
+    margin-left: 0;
+    display: block;
 }
 
-.nrht_t_btn {
-    top: 41px;
-    right: 12px;
-    padding: 10px 15px;
+.nrht_btn {
+    padding: 10px 40px;
 }
 
 /*Nipro Responsive HTML Template end*/
 
 /*Co-Founder & COO start*/
 
-.cofo {
-    padding-bottom: 80px;
+.cofo_ind {
+    right: unset; 
+    top: -55px;
+    height: 0;
+    width: 100%;
+    flex-direction: unset;
+    align-items: center;
 }
 
-.nrht {
-    margin-bottom: 180px;
+.cofo_ind [data-bs-target] {
+    width: 2px;
+    height: 13px;
+    margin: 0 4px;
+}
+
+.cofo_content {
+    padding: 15px 15px;
+}
+
+.cofo_i {
+    top: 16px;
+    font-size: 40px;
+}
+
+.cofo_img {
+    margin: 0 0 20px;
+}
+
+.cofo_p {
+    margin: 5px 0;
+}
+
+.cofo_p2 {
+    margin: 20px 0;
 }
 
 .cofo_pn_btn {
@@ -206,53 +248,18 @@
     writing-mode: unset;
 }
 
+.cofo_com_btn {
+    right: unset;
+}
+
 .cofo_ct_p {
-    top: 19px;
-    right: 0; 
-    left: -190px;
+    top: 20px;
+    left: 20px;
 }
 
 .cofo_ct_n{
-    top: 19px;
-    right: -190px; 
-    left: 0;
-}
-
-.cofo_ind {
-    height: 0;
-    right: 0;
-    top: -68px;
-    margin: 0;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.cofo_img {
-    margin: 0 0 10px;
-    position: relative;
-}
-
-.cofo_i {
-    top: 21px;
-    font-size: 45px;
-}
-
-.cofo_ind [data-bs-target] {
-    margin: 0 4px 0;
-    width: 2px;
-    height: 18px;
-}
-
-.cofo_content {
-    padding: 20px 15px;
-}
-
-.cofo_p {
-    margin: 10px 0;
-}
-
-.cofo_p2 {
-    margin: 20px 0;
+    top: 20px;
+    right: 20px;
 }
 
 /*Co-Founder & COO end*/
@@ -301,7 +308,7 @@
 /*Feature start*/
 
 .f_item {
-    margin: 100px 0 0;
+    margin: 80px 0 0;
 }
 
 /*Feature end*/
@@ -333,7 +340,7 @@
 /*Recent work start*/
 
 .rw_h1 {
-    padding: 0 0 150px;
+    padding: 0 0 135px;
 }
 
 .rwr_ci {
@@ -359,11 +366,25 @@
 
 /*Why Choose start*/
 
+.wc_items {
+    margin: 80px 0 0;
+}
 
+.wc_h2 {
+    font-size: 17px;
+}
+
+.wc_items p {
+    margin: 15px 0;
+}
 
 /*Why Choose end*/
 
 /*Who work with us end*/
+
+.why_choose {
+    padding-bottom: 80px;
+}
 
 .wwwu_item{
     margin: 80px 0 0;
@@ -395,31 +416,81 @@
 
 /*Who work with us start*/
 
-/*Nipro Responsive HTML Template start*/
+/*Best pricing start*/
+
+.best-pricing {
+    padding-bottom: 80px;
+}
+
+.bp_item {
+    margin-top: 80px;
+    padding: 30px 20px 20px;
+}
 
 .bp_btn {
-    padding: 18px 40px;
+    padding: 15px 50px;
 }
+
+/*Best pricing end*/
+
+/*Nipro Responsive HTML Template start*/
+
+.nrht {
+    margin-bottom: 170px;
+}
+
+.nrht_titel{
+    text-align: center;
+}
+
 
 .nrht_titel h1 {
-    font-size: 15px;
+    margin: 0 0 25px;
 }
 
-.nrht_t_btn {
-    right: 30px;
+.nrht_it_btn {
+    margin-left: 0;
+    display: block;
+}
+
+.nrht_btn {
+    padding: 10px 40px;
 }
 
 /*Nipro Responsive HTML Template end*/
 
-
 /*Co-Founder & COO start*/
 
-.cofo {
-    padding-bottom: 80px;
+.cofo_ind {
+    right: unset; 
+    top: -55px;
+    height: 0;
+    width: 100%;
+    flex-direction: unset;
+    align-items: center;
 }
 
-.nrht {
-    margin-bottom: 180px;
+.cofo_ind [data-bs-target] {
+    width: 2px;
+    height: 13px;
+    margin: 0 4px;
+}
+
+.cofo_i {
+    top: 41px;
+    font-size: 60px;
+}
+
+.cofo_img {
+    margin: 0 0 20px;
+}
+
+.cofo_p {
+    margin: 5px 0;
+}
+
+.cofo_p2 {
+    margin: 20px 0;
 }
 
 .cofo_pn_btn {
@@ -428,59 +499,23 @@
     writing-mode: unset;
 }
 
+.cofo_com_btn {
+    right: unset;
+}
+
 .cofo_ct_p {
-    top: 19px;
-    right: 0; 
-    left: -340px;
+    top: 20px;
+    left: 50px;
 }
 
 .cofo_ct_n{
-    top: 19px;
-    right: -340px; 
-    left: 0;
-}
-
-.cofo_ind {
-    height: 0;
-    right: 0;
-    top: -68px;
-    margin: 0;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.cofo_img {
-    margin: 0 0 10px;
-    position: relative;
-}
-
-.cofo_i {
-    top: 21px;
-    font-size: 60px;
-}
-
-.cofo_ind [data-bs-target] {
-    margin: 0 4px 0;
-    width: 2px;
-    height: 18px;
-}
-
-.cofo_content {
-    padding: 20px 15px;
-}
-
-.cofo_p {
-    margin: 10px 0;
-}
-
-.cofo_p2 {
-    margin: 20px 0;
+    top: 20px;
+    right: 50px;
 }
 
 /*Co-Founder & COO end*/
 
 }
-
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -501,15 +536,19 @@
 /*Slider start*/
 
 .slider {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 /*Slider start*/
 
 /*Welcome start*/
 
-.w_h1 {
-    margin: 20px 0 40px;
+.c_h1 {
+    margin: 20px 0 0;
+}
+
+.w_p {
+    margin: 30px 0 0;
 }
 
 /*Welcome end*/
@@ -517,12 +556,16 @@
 /*Feature start*/
 
 .f_item {
-    margin: 100px 0 0;
+    margin: 80px 25px 0;
 }
 
 /*Feature end*/
 
 /*About us start*/
+
+.about-us {
+    padding: 80px 0;
+}
 
 .abu_img {
     padding: 0 100px;
@@ -544,8 +587,12 @@
 
 /*Recent work start*/
 
+.recent-work {
+    padding-bottom: 80px;
+}
+
 .rw_h1 {
-    padding: 0 0 150px;
+    padding: 0 0 135px;
 }
 
 .rwr_ci {
@@ -559,22 +606,93 @@
 
 /*Recent work end*/
 
-/*Best pricing end*/
+/*Why Choose start*/
+
+.why_choose {
+    padding-bottom: 80px;
+}
+
+.wc_items {
+    margin: 80px 0 0;
+}
+
+.wc_items p {
+    margin: 20px 0 30px;
+}
+
+/*Why Choose end*/
+
+/*Who work with us start*/
+
+.who-work-with-us {
+    padding-bottom: 80px;
+}
+
+.wwwu_item{
+  margin: 80px 0 0;
+}
+
+/*Who work with us end*/
+
+/*Best pricing start*/
 
 .best-pricing {
     padding-bottom: 80px;
 }
 
-/*Best pricing start*/
+.bp_item {
+    margin-top: 80px;
+}
+
+.bp_btn {
+    padding: 18px 85px;
+}
+
+/*Best pricing end*/
+
+/*Nipro Responsive HTML Template start*/
+
+.nrht {
+    margin-bottom: 170px;
+}
+
+.nrht_it_btn {
+    margin-left: 158px;
+}
+
+/*Nipro Responsive HTML Template end*/
 
 /*Co-Founder & COO start*/
 
-.cofo {
-    padding-bottom: 80px;
+.cofo_ind {
+    right: unset; 
+    top: -55px;
+    height: 0;
+    width: 100%;
+    flex-direction: unset;
+    align-items: center;
 }
 
-.nrht {
-    margin-bottom: 180px;
+.cofo_ind [data-bs-target] {
+    width: 2px;
+    height: 13px;
+    margin: 0 4px;
+}
+
+.cofo_i {
+    top: 91px;
+}
+
+.cofo_img {
+    margin: 50px 0;
+}
+
+.cofo_p {
+    margin: 10px 0;
+}
+
+.cofo_p2 {
+    margin: 25px 0;
 }
 
 .cofo_pn_btn {
@@ -583,52 +701,18 @@
     writing-mode: unset;
 }
 
+.cofo_com_btn {
+    right: unset;
+}
+
 .cofo_ct_p {
-    top: 19px;
-    right: 0; 
-    left: -340px;
+    top: 20px;
+    left: 50px;
 }
 
 .cofo_ct_n{
-    top: 19px;
-    right: -340px; 
-    left: 0;
-}
-
-.cofo_ind {
-    height: 0;
-    right: 0; 
-    top: -68px;
-    margin: 0;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.cofo_img {
-    margin: 40px 0 0;
-    position: relative;
-}
-
-.cofo_i {
-    top: 61px;
-}
-
-.cofo_ind [data-bs-target] {
-    margin: 0 4px 0;
-    width: 2px;
-    height: 18px;
-}
-
-.cofo_content {
-    padding: 20px 15px;
-}
-
-.cofo_p {
-    margin: 10px 0;
-}
-
-.cofo_p2 {
-    margin: 20px 0;
+    top: 20px;
+    right: 50px;
 }
 
 /*Co-Founder & COO end*/
@@ -689,10 +773,10 @@
 
 /*Who work with us start*/
 
-/*Nipro Responsive HTML Template start*/
+/*Best pricing start*/
 
 .bp_item {
-    margin: 100px 0;
+    margin: margin: 80px 0 0;
     padding: 50px 18px 40px;
 }
 
@@ -700,16 +784,20 @@
     padding: 18px 37px;
 }
 
+/*Best pricing end*/
+
+/*Nipro Responsive HTML Template start*/
+
+.nrht_it_btn {
+    margin-left: 398px;
+}
+
 /*Nipro Responsive HTML Template end*/
 
 /*Co-Founder & COO start*/
 
-.cofo_ind{
-    bottom: 220px;
-}
-
-.cofo_img {
-    width: 103%;
+.cofo_ind {
+    bottom: 215px;
 }
 
 .cofo_pn_btn {
@@ -717,6 +805,7 @@
 }
 
 /*Co-Founder & COO end*/
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -750,21 +839,34 @@
 
 /*About us end*/
 
-/*Nipro Responsive HTML Template start*/
+/*Best pricing start*/
 
 .bp_btn {
     padding: 18px 48px;
+}
+
+/*Best pricing end*/
+
+/*Nipro Responsive HTML Template start*/
+
+.nrht_it_btn {
+    margin-left: 578px;
 }
 
 /*Nipro Responsive HTML Template end*/
 
 /*Co-Founder & COO start*/
 
+.cofo_ind {
+    bottom: 215px;
+}
+
 .cofo_pn_btn {
-    padding: 236px 35px;
+    padding: 237px 35px;
 }
 
 /*Co-Founder & COO end*/
+
 }
 
 /*Extra extra large devices (large desktops, 1400px and up)*/
