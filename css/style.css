@@ -617,6 +617,13 @@ header{
     font-size: 30px;
 }
 
+.bp_cas_i {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 .bp_btn{
     margin-top: 40px;
     padding: 18px 28.9%;
