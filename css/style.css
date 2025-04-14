@@ -854,3 +854,91 @@ header{
 }
 
 /*Support end*/
+
+/*Footer start*/
+
+footer{
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+}
+
+.f_start{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.f_vl{}
+
+.f_h1{}
+
+.f_p{
+    margin: 40px 37%;
+    color: var(--wh);
+}
+
+.f_ul{}
+
+.f_li{}
+
+.footera{
+    font-size: 26px;
+    color: var(--wh);
+    border: 1px solid var(--wh);
+    transition: .3s linear;
+}
+
+.footera:hover{
+    color: var(--bl);
+    background-color: var(--wh);
+}
+
+.f_a1{
+    padding: 12px 19px;
+}
+
+.f_a2{
+    padding: 12px 14px;
+}
+
+.f_a3{
+    padding: 12px 12px;
+}
+
+.f_a4{
+    padding: 12px 13px;
+}
+
+.f_a5{
+        padding: 12px 15px;
+}
+
+.f_a6{
+        padding: 12px 10px;
+}
+
+.f_icon{}
+
+.f_end{
+    padding: 40px 3%;
+    border-top: 1px solid;
+}
+
+.fe_p{
+    color: var(--wh);
+    word-spacing: 3px;
+}
+
+.fe_ul{
+    float: right;
+}
+
+.fe_li{
+    margin:0 0 0 40px !important;
+}
+
+.fe_a{
+    color: var(--wh);
+    text-decoration: none;
+}
+
+/*Footer end*/
