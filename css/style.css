@@ -619,7 +619,7 @@ header{
 
 .bp_btn{
     margin-top: 40px;
-    padding: 18px 68px;
+    padding: 18px 28.9%;
     color: var(--as) !important;
     border: 1px solid var(--as) !important;
     border-radius: 0;
