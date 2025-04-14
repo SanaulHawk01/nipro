@@ -243,7 +243,7 @@
 }
 
 .cofo_pn_btn {
-    padding: 35px 147px;
+    padding: 35px 49.85%;
     top: -90px;
     writing-mode: unset;
 }
@@ -263,6 +263,31 @@
 }
 
 /*Co-Founder & COO end*/
+
+/*Support start*/
+
+.s_form {
+    margin: 0;
+}
+
+.sform_h1 {
+    width: 178px;
+    top: -16px;
+}
+
+.s_form_items {
+    padding: 60px 10px 20px;
+}
+
+.sform_im {
+    padding: 15px 0 10px 0px;
+}
+
+.sform_im::placeholder {
+    text-align: center;
+}
+
+/*Support end*/
 
 }
 
@@ -515,6 +540,19 @@
 
 /*Co-Founder & COO end*/
 
+/*Support start*/
+
+.s_form_items {
+    padding: 60px 20px 20px;
+}
+
+
+.sform_im {
+    margin-bottom: 10px;
+}
+
+/*Support end*/
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -717,6 +755,14 @@
 
 /*Co-Founder & COO end*/
 
+/*Support start*/
+
+.s_form_items {
+    padding: 80px 90px 20px;
+}
+
+/*Support end*/
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -805,6 +851,14 @@
 }
 
 /*Co-Founder & COO end*/
+
+/*Support start*/
+
+.s_form_items {
+    padding: 80px 170px 20px;
+}
+
+/*Support end*/
 
 }
 
