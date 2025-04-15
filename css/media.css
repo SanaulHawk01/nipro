@@ -664,7 +664,11 @@
 }
 
 .fe_li {
-    margin: 0 20px !important;
+    margin: 0 6px !important;
+}
+
+.f_ul {
+    margin: 0 44px;
 }
 
 /*Footer end*/
@@ -902,6 +906,10 @@
 
 /*Footer start*/
 
+.f_start {
+    padding-bottom: 80px;
+}
+
 .f_p {
     margin: 40px 29%;
     color: var(--wh);
@@ -918,7 +926,7 @@
 }
 
 .fe_li {
-    margin: 0 20px !important;
+    margin: 0 6px !important;
 }
 
 /*Footer end*/
@@ -1044,7 +1052,7 @@
 /*Footer start*/
 
 .fe_li {
-    margin: 0 0 0 21px !important;
+    margin: 0 0 0 15px !important;
 }
 
 /*Footer end*/
@@ -1121,7 +1129,7 @@
 /*Footer start*/
 
 .fe_li {
-    margin: 0 0 0 38px !important;
+    margin: 0 0 0 30px !important;
 }
 
 /*Footer end*/

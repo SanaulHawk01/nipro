@@ -909,6 +909,13 @@ footer{
     background-size: cover;
 }
 
+.footer-fast-part{}
+
+.footer-second-part{
+    padding: 40px 0;
+    border-top: 1px solid;
+}
+
 .f_start{
     padding-bottom: 100px;
     text-align: center;
@@ -965,10 +972,7 @@ footer{
 
 .f_icon{}
 
-.f_end{
-    padding: 40px 3%;
-    border-top: 1px solid;
-}
+.f_end{}
 
 .fe_p{
     color: var(--wh);
