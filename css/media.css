@@ -132,9 +132,9 @@
 }
 
  .rwr_ci [data-bs-target] {
-    margin: 0 7px;
-    padding: 5px 10px;
-    font-size: 15px;
+    margin: 0 3px;
+    padding: 3px 5px;
+    font-size: 12px;
 }
 
 .rw_ca {
