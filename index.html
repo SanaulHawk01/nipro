@@ -42,7 +42,17 @@
                 </li>
               </ul>
               <div class="h_sr">
-                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle h_ddt" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-magnifying-glass h_ddt_i"></i>
+                  </button>
+                  <ul class="dropdown-menu h_ddt_dm">
+                    <form class="d-flex" role="search">
+                      <input class="form-control h_ddt_dm_fc me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success h_ddt_os" type="submit">Search</button>
+                    </form>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -107,9 +117,9 @@
               <button type="button" data-bs-target="#sl-it" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <!-- Next previous button -->
-            <button class="carousel-control-prev s_ccp sli_c" type="button" data-bs-target="#sl-it" data-bs-slide="prev"><a href="#" class="s_ccpra">prev</a>
+            <button class="carousel-control-prev s_ccp sli_c" type="button" data-bs-target="#sl-it" data-bs-slide="prev">PREV
             </button>
-            <button class="carousel-control-next s_ccn sli_c" type="button" data-bs-target="#sl-it" data-bs-slide="next"><a href="#" class="s_ccpra">prev</a>
+            <button class="carousel-control-next s_ccn sli_c" type="button" data-bs-target="#sl-it" data-bs-slide="next">NEXT
             </button>
           </div>
         </div>
